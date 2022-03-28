@@ -13,6 +13,11 @@ import CheckList from '@editorjs/checklist'
 import Delimiter from '@editorjs/delimiter'
 import InlineCode from '@editorjs/inline-code'
 import SimpleImage from '@editorjs/simple-image'
+import TextSpoiler from 'editorjs-inline-spoiler-tool'
+import ChangeCase from 'editorjs-change-case'
+import Tooltip from 'editorjs-tooltip'
+import AlignmentTuneTool from 'editorjs-text-alignment-blocktune'
+import Emoji from '@groupher/editor-emoji'
 
 export const EDITOR_JS_TOOLS = {
     embed: Embed,
@@ -30,4 +35,9 @@ export const EDITOR_JS_TOOLS = {
     delimiter: Delimiter,
     inlineCode: InlineCode,
     simpleImage: SimpleImage,
+    emoji: Emoji,
+    textSpoiler: TextSpoiler,
+    changeCase: ChangeCase,
+    anyTuneName: AlignmentTuneTool,
+    tooltip: Tooltip,
 }
